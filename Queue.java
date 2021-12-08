@@ -44,6 +44,8 @@ class Queue {
     
     // Get the front element.
     public int peek() {
+        int element = stack1.peek();
+        return element;
        
 
     }
@@ -56,7 +58,7 @@ class Queue {
 
     // Return the number of elements in queue.
     public int  size() {
-        return stack1.size();
+        return
 
     }
     
