@@ -36,8 +36,9 @@ class Queue {
 
     // Removes the element from in front of queue.
     public int dequeue() {
-        return 
-      
+        if (stack1.isEmpty()) throw new NoSuchElementException();
+        int item2=stack1.pop();
+        return item2;    
         
     }
     
